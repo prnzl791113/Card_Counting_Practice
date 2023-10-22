@@ -30,7 +30,7 @@ def classifier(file_name):
     return arr
 
 # Initialize the deck
-FILE_PATH = '/Users/pranj/PycharmProjects/mcgraw/assets/png/'
+FILE_PATH = '_____' # Add your file path to the card images here
 all_cards = filesInDir(FILE_PATH)
 Deck = classifier(all_cards)
 
